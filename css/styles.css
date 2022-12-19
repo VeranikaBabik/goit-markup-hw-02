@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #212121;
 }
 :root {
   --color-text-dark: #212121;
@@ -15,7 +16,6 @@ h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1, 17;
-  color: var(--color-text-dark);
   text-align: center;
 }
 h3 {
@@ -29,14 +29,12 @@ p {
 }
 .menu {
   font-size: 14px;
-  color: var(--color-text);
   font-weight: 500;
   text-decoration: none;
 }
 .menu:hover,
 .menu:focus {
   color: var(--color-mark);
-  cursor: pointer;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -45,7 +43,7 @@ p {
   color: #000000;
   text-decoration: none;
 }
-.logoweb {
+.logo-web {
   color: var(--color-mark);
 }
 .main-header {
@@ -62,7 +60,7 @@ p {
   height: 600px;
   width: 1600px;
 }
-.buttonhw1 {
+.button-hw1 {
   background-color: var(--color-mark);
   color: var(--color-text-light);
   font-size: 16px;
@@ -71,7 +69,7 @@ p {
   cursor: pointer;
   border: none;
 }
-.whatwedo {
+.what-we-do {
   background-color: var(--color-background-light);
 }
 .team {
@@ -98,39 +96,37 @@ footer {
   background-color: var(--color-background-dark);
   color: var(--color-text-light);
 }
-.logostudio {
+.logo-studio {
   color: var(--color-text-light);
 }
 address {
   font-style: normal;
 }
-.mainhw2 {
+.main-hw2 {
   margin-top: 174px;
 }
-.buttonhw2 {
+.button-hw2 {
   background-color: #f5f4fa;
-  color: var(--color-text-dark);
   font-size: 16px;
   font-weight: 500;
   line-height: 1, 63;
   cursor: pointer;
   border: none;
 }
-.buttonhw2:hover,
-.buttonhw2:focus {
+.button-hw2:hover,
+.button-hw2:focus {
   background-color: var(--color-mark);
   color: var(--color-text-light);
 }
 .project {
   background-color: #eeeeee;
 }
-.nameofproject {
-  color: var(--color-text-dark);
+.name-of-project {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
 }
-.typeofproject {
+.type-of-project {
   font-size: 16px;
   line-height: 1, 88;
 }
