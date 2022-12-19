@@ -53,9 +53,6 @@ p {
   height: 80px;
   width: 1600px;
 }
-li [href="./index.html"] {
-  color: var(--color-mark);
-}
 .motto {
   background-color: var(--color-background-dark);
   color: var(--color-text-light);
@@ -65,13 +62,14 @@ li [href="./index.html"] {
   height: 600px;
   width: 1600px;
 }
-button {
+.buttonhw1 {
   background-color: var(--color-mark);
   color: var(--color-text-light);
   font-size: 16px;
   font-weight: 700;
   line-height: 1, 88;
   cursor: pointer;
+  border: none;
 }
 .whatwedo {
   background-color: var(--color-background-light);
@@ -105,4 +103,34 @@ footer {
 }
 address {
   font-style: normal;
+}
+.mainhw2 {
+  margin-top: 174px;
+}
+.buttonhw2 {
+  background-color: #f5f4fa;
+  color: var(--color-text-dark);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1, 63;
+  cursor: pointer;
+  border: none;
+}
+.buttonhw2:hover,
+.buttonhw2:focus {
+  background-color: var(--color-mark);
+  color: var(--color-text-light);
+}
+.project {
+  background-color: #eeeeee;
+}
+.nameofproject {
+  color: var(--color-text-dark);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
+.typeofproject {
+  font-size: 16px;
+  line-height: 1, 88;
 }
