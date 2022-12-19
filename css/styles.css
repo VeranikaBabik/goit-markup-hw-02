@@ -1,6 +1,25 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+ul {
+  list-style-type: none;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1, 17;
+  color: var(--color-text-dark);
+  text-align: center;
+}
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1, 17;
+}
+p {
+  font-size: 14px;
+  line-height: 1, 7;
+}
 :root {
   --color-text-dark: #212121;
   --color-text-light: #ffffff;
@@ -12,7 +31,6 @@ body {
   font-size: 14px;
   color: var(--color-text);
   font-weight: 500;
-  list-style-type: none;
 }
 .menu:hover,
 .menu:focus {
@@ -50,4 +68,27 @@ button {
   font-weight: 700;
   line-height: 1, 88;
   cursor: pointer;
+}
+.whatwedo {
+  background-color: var(--color-background-light);
+}
+.team {
+  background-color: #f5f4fa;
+}
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1, 17;
+  text-align: center;
+}
+.job {
+  font-size: 16px;
+  line-height: 1, 17;
+  text-align: center;
+}
+.person1,
+.person2,
+.person3,
+.person4 {
+  background-color: var(--color-text-light);
 }
